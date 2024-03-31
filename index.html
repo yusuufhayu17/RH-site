@@ -4,6 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script>
+      document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+    <script>
+      document.addEventListener('keydown', function(event) {
+          if (event.key === 'PrintScreen' || (event.key === 'Shift' && event.key === 'Cmd' && event.key === '4')) {
+              // Display a message or take action to prevent the screenshot
+          }
+      });
+  </script>
 	<!-- Website Title -->
     <title>RH-HAUWA</title>
     <!-- Bootstrap -->
@@ -28,9 +40,9 @@
     <script src="assets/html5shiv/html5shiv.js"></script>
     <script src="assets/respond/respond.min.js"></script>
     <![endif]-->
+
   </head>
     <body id="top">
-
       <!-- ****************************** Preloader ************************** -->
       <div id="preloader"></div>
 
@@ -74,7 +86,7 @@
           <span>H</span><span style="color: #E04343;">A</span>
           <span>U<span style="color: #FFE800">W</span>A</span>
       </h1><!-- Title -->
-      <h3 class="animated fadeInUp delay-05s"><span class="rotate">Make up artist, medical student Islamic Guruu </span></h3><!-- Text Rotator -->
+      <h3 class="animated fadeInUp delay-05s"><span class="rotate">Make up artist, Fashion Designer Student </span></h3><!-- Text Rotator -->
   </div>
 </div>
 
@@ -108,7 +120,7 @@
               <div class="col-md-8 col-md-offset-2 wp1">
                 <h1 class="arrow">A little <span>about</span> me</h1><!-- Headline -->
 				<!-- about / welcome text -->
-                <p>I am    hiiighly intelligent   <a href="#">nursing student</a> 'fway to maintain that mind stillness.</p>
+                <p>My name is Hauwa'u Rilwan I am a simple girl who leave a simple life to fufil all my dreams. I am also very dedicated to all my goals and focus</p>
               </div>
             </div>
           </div>
@@ -125,7 +137,7 @@
         <!-- Headline -->
             <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">I do amazing things for clients</h1>
+                <h1 class="arrow">MY SKILS</h1>
               </div>
             </div>
             <div class="row">
@@ -137,8 +149,7 @@
                       <i class="fa fa-camera"></i><!-- Icon -->
                     </div>
                     <h2>Photographer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
+                    <p>I am a great and beautifull photographer if I snap you a pic it will be the best pic you snap that year</p><!-- Description -->
                   </div>
           <!-- Service Box 2 -->
                   <div class="col-md-4 wp2 item delay-05s">
@@ -146,8 +157,7 @@
                       <i class="fa fa-desktop"></i><!-- Icon -->
                     </div>
                     <h2>Web Designer</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
+                    <p>I am also a proficent web designer i can design many website for you at affordable price and fastest time table </p><!-- Description -->
                   </div>
           <!-- Service Box 3 -->
                   <div class="col-md-4 wp2 item delay-1s">
@@ -155,8 +165,7 @@
                       <i class="fa fa-cubes"></i><!-- Icon -->
                     </div>
                     <h2>3D Artist</h2><!-- Title -->
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum
-                    primis in faucibus.</p><!-- Description -->
+                    <p>I am also a 3d developer that uses the blender software to model and do animation.</p><!-- Description -->
                   </div>
           </div>
                   <div class="clearfix"></div>
@@ -214,12 +223,12 @@
 		<!-- ==========================
         PORTFOLIO SECTION
     =========================== -->
-        <section class="swag text-center" id="portfolio">
           <div class="container">
 		    <!-- Headline -->
+        <div id="overlay" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); pointer-events: all;"></div>
             <div class="row">
               <h1 class="arrow">
-                Recent <span>Porojects</span>
+                Recent <span>Photos</span>
               </h1>
             </div>
           </div>
@@ -342,7 +351,7 @@
         <!-- Headline -->
         <div class="row">
               <div class="col-md-12">
-                <h1 class="arrow">My <span>little</span> blog</h1>
+                <h1 class="arrow">More<span>PICTURES</span> </h1>
               </div>
             </div><br><br>
       
@@ -505,21 +514,21 @@
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>23 Ipsum street, New York</p>
+                  <p><a href="https://maps.app.goo.gl/wvWgc6wBxgKEBN4J7">Magaji Quaters</a></p>
                 </div>
               </div>
 			  <!-- Phone Number Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+12 345 6789</p>
+                  <p><a href="tel:+2348029226631">09168555212</a></p>
                 </div>
               </div>
 			  <!-- E-Mail Box -->
               <div class="col-md-4">
                 <div class="dark-box box-hover">
                   <h2><i class="fa fa-paper-plane"></i><span>Email</span></h2>
-                  <p><a href="index.html#">info@themewagon.com</a></p>
+                  <p><a href="mailto:hauwarilwanrh0714@gmail.comhauwarilwanrh0714@gmail.com"></a></p>
                 </div>
               </div>
             </div>
@@ -562,9 +571,9 @@
             <div class="row">
               <div class="col-md-12">
                 <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
+                  <li><a href="https://web.facebook.com/100089322096516/" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
                   <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
+                  <li><a href="https://web.facebook.com/100089322096516/" target="_parent" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
 				  <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
 				  <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
                 </ul>
@@ -585,7 +594,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12 text-center">
-                <p>All Rights Reserved. &copy; 2015 <a href="http://www.themewagon.com">ThemeWagon</a>
+                <p>All Rights Reserved. &copy; 2024 <a href="https://yusufkamal.onrender.com/">HAYU TECHNET</a>
               </div>
             </div>
           </div>
